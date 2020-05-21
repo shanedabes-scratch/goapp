@@ -1,0 +1,9 @@
+repos:
+  - repo: git://github.com/Bahjat/pre-commit-golang
+    rev: master
+    hooks:
+      - id: go-fmt-import
+      - id: go-vet
+      - id: go-lint
+      - id: go-unit-tests
+      - id: golangci-lint # requires github.com/golangci/golangci-lint
