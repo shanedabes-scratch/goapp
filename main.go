@@ -10,5 +10,4 @@ func main() {
 	fmt.Println("pointless addition")
 
 	cmd.Execute()
-
 }
